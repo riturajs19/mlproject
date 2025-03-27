@@ -1,6 +1,6 @@
 import os ## Handles files paths and directory management
 import sys ## used for error handling in Custom Exception
-from src.exception import CustomException # Imports cusotm error handling class
+from src.exception import CustomException # Imports custom error handling class
 from src.logger import logging # import logger for debugging
 import pandas as pd
 
