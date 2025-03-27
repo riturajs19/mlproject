@@ -25,7 +25,7 @@ class ModelTrainerConfig:
 
 class ModelTrainer:
     def __init__(self):
-        self.model_trainer_config=ModelTrainerConfig()
+        self.model_trainer_config=ModelTrainerConfig() # Stores the file path for saving trained model
 
 
     def initiate_model_trainer(self,train_array,test_array):
